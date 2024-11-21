@@ -10,7 +10,7 @@ import { blob } from "stream/consumers";
 
 const dexscreenapi = 'https://api.dexscreener.com/latest/dex/tokens/'
 
-const solanaConnection = new Connection("https://mainnet.helius-rpc.com/?api-key=c2d64354-14be-496d-b755-a55b599bfbf8", { wsEndpoint: "wss://mainnet.helius-rpc.com/?api-key=c2d64354-14be-496d-b755-a55b599bfbf8" });
+const solanaConnection = new Connection("rpc", { wsEndpoint: "ws rpc" });
 
 enum Filter {
     Receive,
